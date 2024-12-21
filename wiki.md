@@ -51,7 +51,7 @@
 
 ### 用户中心配置
 
-![image-20241221134546524](README.assets\image-20241221134546524.png)
+![image-20241221134546524](https://raw.githubusercontent.com/lifujie25/OneStrm-wiki/main/README.assets/image-20241221134546524.png)
 
 其他配置不再赘述，这里TMDB密钥的填写主要有两个目的，一是oneStrm的登录页海报，另一个是为了在通知设置中，能够获取到对应入库影片的信息（后续再说）
 
