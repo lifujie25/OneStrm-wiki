@@ -51,19 +51,19 @@
 
 ### 用户中心配置
 
-![image-20241221134546524](F:\emby\oneStrm\README.assets\image-20241221134546524.png)
+![image-20241221134546524](README.assets\image-20241221134546524.png)
 
 其他配置不再赘述，这里TMDB密钥的填写主要有两个目的，一是oneStrm的登录页海报，另一个是为了在通知设置中，能够获取到对应入库影片的信息（后续再说）
 
 ### Cookies配置
 
-![image-20241221134849802](F:\emby\oneStrm\README.assets\image-20241221134849802.png)
+![image-20241221134849802](README.assets\image-20241221134849802.png)
 
 这里选取自己用不到的客户端，点击扫码，使用115手机端扫码即可获取对应客户端的cookies，可添加多个cookies来避免cookies失效，**填写完cookies后记得保存**
 
 ### Emby设置
 
-![image-20241221135117894](F:\emby\oneStrm\README.assets\image-20241221135117894.png)
+![image-20241221135117894](README.assets\image-20241221135117894.png)
 
 此处填写自己的Emby地址（一般为8096端口）以及Emby api即可，下面的两个选项作用如下：
 
@@ -72,7 +72,7 @@
 
 ### Strm设置
 
-![image-20241221135542340](F:\emby\oneStrm\README.assets\image-20241221135542340.png)
+![image-20241221135542340](README.assets\image-20241221135542340.png)
 
 对应选项描述如下：
 
@@ -98,7 +98,7 @@
 
 ### 302转发设置
 
-![image-20241221142547761](F:\emby\oneStrm\README.assets\image-20241221142547761.png)
+![image-20241221142547761](README.assets\image-20241221142547761.png)
 
 1. **[如果是生成pickcode的方式，直接默认不需要修改]**
 2. **[需替换的路径]** ：把本地路径非网盘的路径,如:/media/115/电影/爆款好人.mkv,网盘路径:/电影/爆款好人.mkv，这里就要填入/media/115
@@ -108,7 +108,7 @@
 
 #### 企业微信机器人
 
-![image-20241221142929506](F:\emby\oneStrm\README.assets\image-20241221142929506.png)
+![image-20241221142929506](README.assets\image-20241221142929506.png)
 
 手机端企业微信填写好对应信息新建企业，在群聊中的群机器人中新建一个群机器人，填写好对应信息后将生成的webhook地址输入到上述位置点击保存，再发送测试信息，能收到信息说明配置成功
 
@@ -116,20 +116,20 @@
 
 笔者并不推荐使用这种方式配置，因为过于麻烦，需要你有一个可信域名或者位于公网的API接收接口
 
-![image-20241221143121027](F:\emby\oneStrm\README.assets\image-20241221143121027.png)
+![image-20241221143121027](README.assets\image-20241221143121027.png)
 
 1. 企业微信注册步骤与企业微信bot中相同
 2. 进入企业微信后台管理界面[企业微信](https://work.weixin.qq.com/)，点击应用管理，创建应用，填写好对应信息，创建完毕
-   ![image-20241221143344216](F:\emby\oneStrm\README.assets\image-20241221143344216.png)
+   ![image-20241221143344216](README.assets\image-20241221143344216.png)
 3. 填写可信域名并下载对应文件到域名根目录，点击验证即可
-   ![image-20241221143557378](F:\emby\oneStrm\README.assets\image-20241221143557378.png)
+   ![image-20241221143557378](README.assets\image-20241221143557378.png)
 4. 验证完成后，在企业可信IP中增加自己云服务器IP，并在云服务器部署[lifj25/wxchat](https://hub.docker.com/r/lifj25/wxchat)
 5. 填写上面需要的企业ID（我的企业->企业信息，下滑在最后即企业ID）、AgentID（点进应对应应用即可查看）、Secret（在AgentID下方，点击查看，在手机端企业微信即可查看）、代理地址（运行lifj25/wxchat这一docker的地址），保存后发送测试信息收到说明搭建成功
 
 #### Telegram机器人
 
 1. 创建Telegram机器人并获取API Token：在Telegram @BotFather按照提示创建对应bot，按照下图获取对应API Token
-   ![image-20241221144315218](F:\emby\oneStrm\README.assets\image-20241221144315218.png)
+   ![image-20241221144315218](README.assets\image-20241221144315218.png)
 2. 获取telegram聊天ID：浏览器输入`https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates`，其中`YOUR_BOT_TOKEN`替换为1中获取的API Token，在返回的json文件中找到id选项，即Telegram聊天id
 3. 代理URL：即你的服务器或者本机的代理地址（如果无法直接访问tg）
 
