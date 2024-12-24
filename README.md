@@ -6,7 +6,7 @@
 
 **为防止滥用，本工具带有授权机制，安装后自行授权（介意绕道），已授权ONEemby_302和ONEemby_strm可联系更换激活码**
 
-tg交流群：[TG交流群]((https://t.me/OneStrm)/⁠)
+tg交流群：https://t.me/OneStrm
 
 docker hub地址：https://hub.docker.com/r/lifj25/onestrm
 
