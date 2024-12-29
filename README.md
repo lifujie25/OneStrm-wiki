@@ -5,7 +5,7 @@
 **OneStrm** 融合ONEemby_302、ONEemby_strm的全部功能，并重新梳理程序逻辑和稳定性，更新的UI，实现一个软件即可生成strm和302播放、获取cookie； 程序是在p115的基础上二次开发，建议有能力的大佬们直接使用原生代码，tg@operate115
 
 
-![image-OneStrm](https://raw.githubusercontent.com/lifujie25/OneStrm-wiki/main/README.assets/OneStrm.png)
+![image-OneStrm](https://raw.githubusercontent.com/lifujie25/OneStrm-wiki/main/README.assets/logo-b.png)
 
 **为防止滥用，本工具带有授权机制，安装后自行授权（介意绕道），已授权ONEemby_302和ONEemby_strm可联系更换激活码**
 
