@@ -92,3 +92,7 @@ services:
       - PGID=0
 ```
 
+### unraid 模板
+右键,链接保存为：
+[下载 my-OneStrm.xml](https://raw.githubusercontent.com/lifujie25/OneStrm-wiki/refs/heads/main/README.assets/my-OneStrm.xml)
+
