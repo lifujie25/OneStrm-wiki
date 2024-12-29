@@ -93,6 +93,6 @@ services:
 ```
 
 ### unraid 模板
-右键,链接保存为：
+右键,链接保存为，模板上传到/config/plugins/dockerMan/templates-user/ 后使用
 [下载 my-OneStrm.xml](https://raw.githubusercontent.com/lifujie25/OneStrm-wiki/refs/heads/main/README.assets/my-OneStrm.xml)
 
